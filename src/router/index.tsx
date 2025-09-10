@@ -1,15 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../components/Home";
-import PostList from "../components/Post";
+import PostList from "../pages/post";
 import CurrencyConvertForm from "../components/CurrencyConvert";
 import StopWatch from "../components/StopWatch";
 import CustomStyle from "../components/CustomStyle";
 import Login from "../pages/login";
+import Layout from "../layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Layout />,
     children: [
       { path: "/post", element: <PostList /> },
       {

@@ -1,4 +1,4 @@
-import withAuth from "../WithAuth";
+import withAuth from "../../components/WithAuth";
 
 function PostList() {
   return (
