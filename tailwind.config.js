@@ -27,8 +27,8 @@ export const theme = {
       '4xl': '2rem',
     },
     colors: {
-    'customColor': '#1fb6ff',
-  },
+      'customColor': '#1fb6ff',
+    },
   },
 }
 export const plugins = [
