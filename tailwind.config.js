@@ -5,17 +5,6 @@ export const content = [
   "./src/**/*.{js,jsx,ts,tsx}",
 ]
 export const theme = {
-  colors: {
-    'blue': '#1fb6ff',
-    'purple': '#7e5bef',
-    'pink': '#ff49db',
-    'orange': '#ff7849',
-    'green': '#13ce66',
-    'yellow': '#ffc82c',
-    'gray-dark': '#273444',
-    'gray': '#8492a6',
-    'gray-light': '#d3dce6',
-  },
   fontFamily: {
     sans: ['Graphik', 'sans-serif'],
     serif: ['Merriweather', 'serif'],
@@ -36,7 +25,10 @@ export const theme = {
     },
     borderRadius: {
       '4xl': '2rem',
-    }
+    },
+    colors: {
+    'customColor': '#1fb6ff',
+  },
   },
 }
 export const plugins = [
